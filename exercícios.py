@@ -4,20 +4,22 @@
 # 1) Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 numero1 = int(input("Digite uma numero inteiro: "))
 numero2 = int(input("Digite outro numero inteiro: "))
+resultado = numero1+numero2
 
-print(numero1+numero2)
+print(f"\nA soma dos valores é {resultado}")
 
 
 # 2) Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 numero1 = int(input("Digite um numero: "))
 resto = numero1 % 5
-print(f"O resto da divisão de {numero1} por 5 é: {resto}")
+print(f"\nO resto da divisão de {numero1} por 5 é: {resto}")
 
 # 3) Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 numero1 = int(input("Digite um numero inteiro: "))
 numero2 = int(input("Digite mais um numero inteiro: "))
+resultado = numero1*numero2
 
-print(numero1*numero2)
+print(f"\nO resultado dos dois valores multiplicados é {resultado}")
 
 # 4) Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 numero1 = int(input("Digite um numero inteiro: "))
@@ -32,9 +34,17 @@ quadrado = numero1 ** 2
 
 print(f"\nO quadrado de {numero1} é {quadrado}.")
 
-# #### Números de Ponto Flutuante (`float`)
+
+# #### Números de Ponto Flutuante (`float`=3.16)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+numero1 = float(input("Digite o primeiro número (ex:3.14) :"))
+numero2 = float(input("Digite o segundo número (ex:3.14) :"))
+resultado = numero1+numero2
+
+print(f"\nA soma de {numero1} + {numero2} é: {resultado} ")
+
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
