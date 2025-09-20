@@ -46,6 +46,13 @@ print(f"\nA soma de {numero1} + {numero2} é: {resultado} ")
 
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+numero1 = float(input("Digite um valor decimal: "))
+numero2 = float(input("Digite outro numero descimal: "))
+media = (numero1+numero2) / 2
+
+print(f"A média entre {numero1} e {numero2} é {media}")
+
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
